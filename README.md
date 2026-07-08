@@ -1,32 +1,33 @@
 # Cam Tools
 Streamlined camera workflow toolkit for Blender 4.2+  
 Add cameras from viewport framing, manage multiple cameras fast, and assign per-camera resolution overrides.
-
 ## Features
 - Add camera from view (accurate framing)
 - Camera list management (activate, duplicate, delete, batch select)
 - Auto-level verticals & mirror controls (local X/Y)
 - Per-camera resolution overrides (Cam-Res) with presets & custom scale
+- View Slots — save and recall viewport views (angle, zoom, camera) like bookmarks
 - Composition guides, DOF panel, passepartout
 - Clean unified UI in View3D → N-Panel → Cam-Tools
-
 ## Installation
 ### Blender Extensions (recommended)
 1. Download the latest release `.zip` from the Releases page
 2. `Edit → Preferences → Extensions → Install from Disk`
 3. Enable **Cam Tools** in the list
-
 ### Manual installation
 1. Download the repo as ZIP
 2. Install in Blender as an add-on
-
 ## Compatibility
 - Blender 4.2+
 - GPU/OS independent, no external dependencies
-
+## Changelog
+### v1.2.0
+- New: View Slots — save and recall viewport views like camera bookmarks, with a switcher to toggle between Cameras and View Slots
+- Fixed: panel freezing on large scenes with many cameras
+- Fixed: background stuttering caused by a timer writing data unnecessarily
+- Fixed: leftover settings from older versions causing conflicts
 ## Issues / Feature Requests
 Submit issues here:
 https://github.com/akhilalukkaran/cam_tools/issues
-
 ## License
 GPL-3.0-or-later
